@@ -1,114 +1,118 @@
 /* 768픽셀보다 작을때 미디어쿼리 반응형디자인 */
 @media (max-width: 768px) {
+
     /* 그리드 */
     .grid_container {
         display: grid;
         grid-template-columns: 33% 33% 33%;
-    
+
     }
-    
+
     .item:nth-child(1) {
         grid-column: 1 / 4;
     }
-    
+
     .item:nth-child(2) {
         grid-column: 1 / 4;
     }
-    
+
     .item:nth-child(3) {
         grid-column: 1 / 4;
     }
-    
+
     .item:nth-child(4) {
         grid-column: 1 / 4;
     }
-    
+
     .item:nth-child(5) {
         grid-column: 1 / 4;
     }
-    
+
     .item:nth-child(6) {
         grid-column: 1 / 4;
     }
-    
+
     .item:nth-child(7) {
         grid-column: 1 / 4;
     }
-    
+
     .photo_container {
         display: grid;
-        grid-template-columns:repeat(3 , 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    
+
     .item2:nth-child(1) {
         grid-column: 1 / 4;
     }
-    
+
     .item2:nth-child(2) {
         grid-column: 1 / 4;
     }
-    
+
     .item2:nth-child(3) {
         grid-column: 1 / 4;
     }
-    
+
     .item2:nth-child(4) {
         grid-column: 1 / 4;
     }
+
     /* 그리드 끝 */
 
     .menu {
         display: inline-block;
         min-height: 30px;
-        text-align: right; 
-        padding-right: 20px; 
+        text-align: right;
+        padding-right: 20px;
         padding-top: 3.5px;
     }
+
     /* 검정색 고정바 */
-    
+
     .nav_header {
         height: 70px;
         margin-top: 30px;
     }
+
     /* 네비게이션 바 */
-    
-    .logo img{
-    
+
+    .logo img {
+
         max-width: 175px;
         width: 0 auto;
         height: 40px;
     }
 
     /* 로고 */
-    
-    
-    
+
+
+
     .list {
-        
+
         display: inline-block;
         float: right;
         text-align: center;
         margin-top: 20px;
         padding-top: 0px;
-    
+
     }
 
     /* 네비게이션바 리스트 */
-    
+
     .search {
         text-align: center;
         padding-top: 3px;
     }
 
     /* 네비게이션 바 옆 돋보기 */
-    
+
 
     .item {
         padding-left: 3px;
     }
 
     /* 그리드 컨테이너 전체 */
-    
+
     h2 {
         font-size: 20px;
         text-align: center;
@@ -118,7 +122,7 @@
 
     /* 제목 *공지사항 *랩노트 *사진게시판 */
 
-    
+
     table {
         border-collapse: collapse;
         text-align: center;
@@ -126,58 +130,65 @@
     }
 
     /* 게시판 */
-    
+
     .number {
         width: 10%;
         text-align: center;
     }
 
     /* 게시판 안에 번호 */
-    
+
     .title {
         width: 80%;
         text-align: center;
     }
+
     /* 게시판 안에 제목 */
     .user {
         width: 20%;
         text-align: center;
     }
+
     /* 게시판안에 작성자 */
-    
+
     .date {
         display: none;
         text-align: center;
     }
+
     /* 게시판안에 날짜 */
-    
+
     .click {
         display: none;
         text-align: center;
     }
+
     /* 조회수 */
 
     .A {
         display: none;
     }
+
     /* 게시판 일부 항목 제거 */
-    
+
 
     .photo_container {
         margin-bottom: 100px;
     }
+
     /* 사진게시판 */
-    
+
     .item2 {
         margin: 10px;
         padding: 10px;
     }
-    
+
     .item2 img {
         max-width: 100%;
         height: 100%;
         padding: 30px;
     }
+
     /* 사진 조정 */
 }
 
@@ -186,228 +197,293 @@
 /*767px보다 클때 미디어 쿼리 반응형 디자인 */
 @media (min-width: 767px) {
 
-/* 메인 그리드 */
+    /* 메인 그리드 */
 
-.grid_container {
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
+    .grid_container {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
 
-}
+    }
 
-.item:nth-child(1) {
-    grid-column: 1 / 4;
-}
+    .item:nth-child(1) {
+        grid-column: 1 / 4;
+    }
 
-.item:nth-child(2) {
-    grid-column: 1 / 2;
-    grid-row: 2 / 5;
-}
+    .item:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 5;
+    }
 
-.item:nth-child(3) {
-    grid-column: 2 / 3;
-}
+    .item:nth-child(3) {
+        grid-column: 2 / 3;
+    }
 
-.item:nth-child(4) {
-    grid-column: 2 / 3;
-}
+    .item:nth-child(4) {
+        grid-column: 2 / 3;
+    }
 
-.item:nth-child(5) {
-    grid-column: 2 / 3;
-}
+    .item:nth-child(5) {
+        grid-column: 2 / 3;
+    }
 
-.item:nth-child(6) {
-    grid-column: 3 / 4;
-    grid-row: 2 / 5;
-}
+    .item:nth-child(6) {
+        grid-column: 3 / 4;
+        grid-row: 2 / 5;
+    }
 
-.item:nth-child(7) {
-    grid-column: 1 / 5;
-}
+    .item:nth-child(7) {
+        grid-column: 1 / 5;
+    }
 
-.photo_container {
-    display: grid;
-    grid-template-columns:repeat(3 , 1fr);
-}
+    .photo_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-.item2:nth-child(1) {
-    grid-column: 1 / 4;
-}
+    .item2:nth-child(1) {
+        grid-column: 1 / 4;
+    }
 
-.item2:nth-child(2) {
-    grid-column: 1 / 2;
-}
+    .item2:nth-child(2) {
+        grid-column: 1 / 2;
+    }
 
-.item2:nth-child(3) {
-    grid-column: 2 / 3;
-}
+    .item2:nth-child(3) {
+        grid-column: 2 / 3;
+    }
 
-.item2:nth-child(4) {
-    grid-column: 3 / 4;
-}
-/* 그리드 끝 */
+    .item2:nth-child(4) {
+        grid-column: 3 / 4;
+    }
 
-.menu {
-    display: inline-block;
-    min-height: 30px;
-    text-align: right; 
-    padding-right: 20px; 
-    padding-top: 3.5px;
-}
+    /* 그리드 끝 */
 
-/* 검정색바 */
+    .menu {
+        display: inline-block;
+        min-height: 30px;
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 3.5px;
+    }
 
-.container-fluid {
-    display: inline-block;
-}
+    /* 검정색바 */
 
-.nav_header {
-    height: 70px;
-    margin-top: 30px;
-}
+    .container-fluid {
+        display: inline-block;
+    }
 
-
-.logo {
-    position: relative;
-    left: 220px;
-}
-
-.logo img{
-    max-width: 175px;
-    width: 0 auto;
-    height: 40px;
-}
+    .nav_header {
+        height: 70px;
+        margin-top: 30px;
+    }
 
 
+    .logo {
+        position: relative;
+        left: 220px;
+    }
 
-.list {
-    
-    display: inline-block;
-    float: right;
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 0px;
-    padding-right: 250px;
-}
+    .logo img {
+        max-width: 175px;
+        width: 0 auto;
+        height: 40px;
+    }
 
-.search {
-    text-align: center;
-    padding-top: 3px;
-}
 
-/* 네비게이션 바 */
 
-h2 {
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 50px;
-    padding-top: 30px;
-}
+    .list {
 
-/* 게시판 제목 */
+        display: inline-block;
+        float: right;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 0px;
+        padding-right: 250px;
+    }
 
-table {
-    border-collapse: collapse;
-    text-align: center;
-}
+    .search {
+        text-align: center;
+        padding-top: 3px;
+    }
 
-.number {
-    width: 10%;
-    text-align: center;
-}
+    /* 네비게이션 바 */
 
-.title {
-    width: 65%;
-    text-align: center;
-}
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
 
-.user {
-    width: 10%;
-    text-align: center;
-}
+    /* 게시판 제목 */
 
-.date {
-    width: 10%;
-    text-align: center;
-}
+    table {
+        border-collapse: collapse;
+        text-align: center;
+    }
 
-.click {
-    width: 5%;
-    text-align: center;
-}
+    .number {
+        width: 10%;
+        text-align: center;
+    }
 
-/* 게시판 */
-.photo_container {
-    margin-bottom: 100px;
-}
+    .title {
+        width: 65%;
+        text-align: center;
+    }
 
-.item2 {
-    margin: 10px;
-    padding: 10px;
-}
+    .user {
+        width: 10%;
+        text-align: center;
+    }
 
-.item2 img {
-    max-width: 100%;
-    height: 100%;
-    padding: 30px;
-}
-/* 사진 게시판 */
+    .date {
+        width: 10%;
+        text-align: center;
+    }
+
+    .click {
+        width: 5%;
+        text-align: center;
+    }
+
+    /* 게시판 */
+    .photo_container {
+        margin-bottom: 100px;
+    }
+
+    .item2 {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .item2 img {
+        max-width: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+
+    /* 사진 게시판 */
 }
 
 
 /* 게시판 디자인 */
+/* 768px이하적용 */
+@media (max-width: 768px) {
+    .grid_container {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .board_item:nth-child(1) {
+        grid-column: 1 / 4;
+    }
+
+    .board_item:nth-child(2) {
+        grid-column: 1 / 4;
+    }
+
+    .board_item:nth-child(3) {
+        grid-column: 1 / 4;
+
+    }
+
+    .board_item:nth-child(4) {
+        grid-column: 1 / 4;
+    }
+
+    .board_item:nth-child(5) {
+        grid-column: 1 / 4;
+    }
+}
+
+/* 그리드 끝 */
+/* 768px이상 */
+@media (min-width: 767px) {
+
+    /* 그리드 */
+
+    .grid_container {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .board_item:nth-child(1) {
+        grid-column: 1 / 4;
+    }
+
+    .board_item:nth-child(2) {
+        grid-column: 1 / 2;
+    }
+
+    .board_item:nth-child(3) {
+        grid-column: 2 / 3;
+
+    }
+
+    .board_item:nth-child(4) {
+        grid-column: 3 / 4;
+    }
+
+    .board_item:nth-child(5) {
+        grid-column: 1 / 4;
+    }
+
+    /* 그리드 끝 */
+
+    .board_name {
+        display: block;
+        float: left;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+
+    .board_bottom {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .board_submit {
+        width: 100%;
+        text-align: right;
+        padding-bottom: 50px;
+    }
+}
+
+/* 게시판 끝 */
+
+/* 게시판 상세보기 */
 
 /* 그리드 */
+
+
+
 .grid_container {
     display: grid;
     grid-template-columns: 25% 50% 25%;
 }
 
-.board_item:nth-child(1){
+.view:nth-child(1) {
     grid-column: 1 / 4;
 }
 
-.board_item:nth-child(2){
+.view:nth-child(2) {
     grid-column: 1 / 2;
 }
 
-.board_item:nth-child(3){
+.view:nth-child(3) {
     grid-column: 2 / 3;
 
 }
 
-.board_item:nth-child(4){
+.view:nth-child(4) {
     grid-column: 3 / 4;
 }
 
-.board_item:nth-child(5) {
+.view:nth-child(5) {
     grid-column: 1 / 4;
 }
-/* 그리드 끝 */
-
-.board_name {
-    display: block;
-    float: left;
-    padding-bottom: 100px;
-    padding-top: 50px;
-    font-weight: 900;
-    font-size: 25px;
-}
-
-
-.board_bottom {
-    width: 100%;
-    text-align: center;
-        
-}
-
-.board_submit {
-    width: 100%;
-    text-align: right;
-    padding-bottom: 50px;
-}
-
-
-
-
-
-

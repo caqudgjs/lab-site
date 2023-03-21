@@ -411,6 +411,7 @@
 
     .board_submit {
         display: block;
+        padding-top:50px;
         text-align: right;
     }
 
@@ -560,19 +561,23 @@
         .lab_board_item:nth-child(5) {
             grid-column: 1 / 4;
         }
+        .lab_people {
+            display: block;
+            width: 50%;
+            padding-top: 140px;
+            padding-left: 100px;
+        }
 
-    .lab_people {
-        display: block;
-        width: 100px;
-        text-align: center;
-        float: right;
-        margin-right: 100px;
-    }
+        .people_title {
+            margin-right: 30px;
+        }
 }
 
 
 
 /* 랩노트 끝 */
+
+/* 상세보기 */
 
 
 

@@ -691,7 +691,7 @@
 /* 그리드 */
 .view_grid_container {
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 15% 1fr 15%;
 }
 
 .view:nth-child(1) {
@@ -793,6 +793,197 @@
     resize: none;
 }
 }
+
+/* 로그인 페이지 */
+@media (max-width: 768px) {
+
+
+    .login_title {
+        font-weight: bold;
+    }
+}
+
+
+@media (min-width: 767px) {
+
+    /* 그리드 시작 */
+
+    .login_grid_container {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .login_item:nth-child(1) {
+        grid-column: 1 / 4;
+
+    }
+
+    .login_item:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 5;
+    }
+
+    .login_item:nth-child(3) {
+        grid-column: 2 / 3;
+    }
+
+    .login_item:nth-child(4) {
+        grid-column: 3 / 4;
+        grid-row: 2 / 5;
+    }
+
+    .login_item:nth-child(5) {
+        grid-column: 1 / 4;
+    }
+    /* 그리드 끝 */
+
+
+
+    
+    .login_title {
+        display: block;
+        text-align: left;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 50px;
+    }
+
+    .login_form {
+        display: block;
+        text-align: center;
+    }
+
+    .login_id_form {
+        margin-top: 30px;
+    }
+
+    .login_id_title {
+        display: block;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .login_id {
+        width: 500px;
+        margin-left: 60px;
+        margin-right: 260px;
+    }
+
+    .login_pw_form {
+        margin-top: 3px;
+    }
+
+    .login_pw_title {
+        display: block;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .login_pw {
+        width: 500px;
+        margin-right: 260px;
+        margin-left: 60px;
+    }
+
+    .login_checkbox {
+        display: block;
+        margin-right: 560px;
+        
+        
+    }
+    
+    .login_button {
+        display: block;
+        margin-top: 50px;
+        margin-left: 560px;
+    }
+
+    .login_footer {
+        margin-top: 320px;
+    }
+
+}
+
+/* 회원가입 */
+
+@media (max-width: 768px) {
+
+
+    .sign_title {
+        font-weight: bold;
+    }
+}
+
+
+@media (min-width: 767px) {
+
+    /* 그리드 시작 */
+    .sign_grid_container {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .sign_item:nth-child(1) {
+        grid-column: 1 / 4;
+
+    }
+
+    .sign_item:nth-child(2) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 5;
+    }
+
+    .sign_item:nth-child(3) {
+        grid-column: 2 / 3;
+    }
+
+    .sign_item:nth-child(4) {
+        grid-column: 3 / 4;
+        grid-row: 2 / 5;
+    }
+
+    .sign_item:nth-child(5) {
+        grid-column: 1 / 4;
+    }
+    
+    /* 그리드 끝 */
+    .sign_title {
+        display: block;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: left;
+        margin-left:100px;
+
+    }
+    .sign_form {
+        display: block;
+        text-align: center;
+    }
+    .sign_id_form, .sign_name_form, .sign_number_form, .sign_email_form, .sign_pw_form, .sign_re_pw_form, .sign_lab_number_form {
+        width: 500px;
+        text-align: left;
+    }
+
+    .sign_selct_box {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+
+
+    .sign_footer {
+        height: 30px;
+        margin-top: 150px;
+    }
+
+    .sign_button {
+        display: inline-block;
+        margin-left: 420px;
+    }
+
+}
+
 
 
 

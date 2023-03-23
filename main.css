@@ -499,10 +499,12 @@
     }
 }
 
-
 /* 게시판 끝 */
 
+
 /* 랩노트 게시판*/
+
+
 /* 768px 이하 */
 @media (max-width: 768px) {
     .grid_container {
@@ -685,10 +687,10 @@
 }
 
 /* 768이상 */
-@media (min-width: 767px){
+@media (min-width: 767px) {
 
 
-/* 그리드 */
+    /* 그리드 */
 .view_grid_container {
     display: grid;
     grid-template-columns: 15% 1fr 15%;
@@ -727,7 +729,7 @@
 .viewer_grid_container {
     padding-top: 50px;
     display: grid;
-    grid-template-columns:20% 20% 20% 1fr ;
+    grid-template-columns:10% 10% 10% 1fr ;
 }
 
 .viewer_item:nth-child(1) {
@@ -777,7 +779,7 @@
 
 }
 
-/* 그리드 끝 */
+    /* 그리드 끝 */
 
 
 .viwer_title {
@@ -793,6 +795,12 @@
     resize: none;
 }
 }
+
+
+/* 상세보기 끝 */
+
+
+
 
 /* 로그인 페이지 */
 @media (max-width: 768px) {
@@ -837,15 +845,12 @@
     }
     /* 그리드 끝 */
 
-
-
-    
     .login_title {
         display: block;
-        text-align: left;
-        font-size: 30px;
         font-weight: bold;
-        padding: 50px;
+        font-size: 30px;
+        text-align: left;
+        margin-left:100px;
     }
 
     .login_form {
@@ -853,54 +858,28 @@
         text-align: center;
     }
 
-    .login_id_form {
-        margin-top: 30px;
-    }
-
-    .login_id_title {
-        display: block;
-        text-align: left;
-        margin-left: 60px;
-    }
-
-    .login_id {
+    .login_id_form, .login_pw_form {
         width: 500px;
-        margin-left: 60px;
-        margin-right: 260px;
-    }
-
-    .login_pw_form {
-        margin-top: 3px;
-    }
-
-    .login_pw_title {
-        display: block;
         text-align: left;
-        margin-left: 60px;
-    }
-
-    .login_pw {
-        width: 500px;
-        margin-right: 260px;
-        margin-left: 60px;
-    }
-
-    .login_checkbox {
-        display: block;
-        margin-right: 560px;
-        
-        
     }
     
+    .login_checkbox {
+        margin-right: 365px;
+    }
+
     .login_button {
-        display: block;
-        margin-top: 50px;
-        margin-left: 560px;
+        margin-left: 435px;
     }
 
     .login_footer {
-        margin-top: 320px;
+        height: 30px;
+        margin-top: 420px;
     }
+    
+
+
+    
+    
 
 }
 
@@ -912,6 +891,8 @@
     .sign_title {
         font-weight: bold;
     }
+
+    
 }
 
 
@@ -959,15 +940,21 @@
         display: block;
         text-align: center;
     }
-    .sign_id_form, .sign_name_form, .sign_number_form, .sign_email_form, .sign_pw_form, .sign_re_pw_form, .sign_lab_number_form {
+    .sign_id_form, .sign_name_form, .sign_number_form, .sign_email_form, .sign_pw_form, .sign_re_pw_form, .sign_lab_number_form, .sign_select {
         width: 500px;
         text-align: left;
     }
 
+    .sign_select {
+        margin-left: 225px;
+    }
+
+
     .sign_selct_box {
-        width: 100px;
+        width: 200px;
         height: 50px;
         font-size: 20px;
+        text-align: center;
     }
 
 
@@ -978,8 +965,8 @@
     }
 
     .sign_button {
-        display: inline-block;
-        margin-left: 420px;
+        display: inline;
+        margin-left: 450px;
     }
 
 }

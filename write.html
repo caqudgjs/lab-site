@@ -19,8 +19,8 @@
     <nav class="menu navbar navbar-default navbar-fixed-top navbar-inverse">
         <a href="">ooo님, 환영합니다.</a>
     </nav>
-    <div class="sign_grid_container">
-        <div class="sign_item">
+    <div class="write_grid_container">
+        <div class="write_item">
             <nav class="nav_header navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -50,61 +50,36 @@
 
             </nav>
         </div>
-        <div class="sign_item">
+        <div class="write_item">
             side1
         </div>
         
-        <div class="sign_item">
-            <h2 class="sign_title">회원가입</h2><hr>
-            <form class="sign_form">
-                <div class="sign_id_form form-group">
-                  <label class="sign_id_title">아이디</label>
-                  <input type="text" class="sign_id form-control">
+        <div class="write_item">
+            <h2 class="login_title">글쓰기</h2><hr>
+            <form class="login_form">
+                <div class="login_id_form form-group">
+                  <label for="exampleInputEmail1" class="login_id_title">아이디</label>
+                  <input type="text" class="login_id form-control" id="exampleInputEmail1" placeholder="아이디를 입력하세요">
                 </div><br>
-                <div class="sign_name_form form-group">
-                    <label class="sign_name_title">이름</label>
-                    <input type="text" class="sign_name form-control">
-                </div><br>
-                <div class="sign_number_form form-group">
-                    <label class="sign_number_title">전화번호</label>
-                    <input type="text" class="sign_number form-control">
-                </div><br>
-                <div class="sign_email_form form-group">
-                    <label class="sign_email_title">E-mail</label>
-                    <input type="text" class="sign_email_number form-control">
-                </div><br>
-                <div class="sign_pw_form form-group">
-                    <label class="sign_pw_title">비밀번호</label>
-                    <input type="text" class="sign_pw form-control">
-                </div><br>
-                <div class="sign_re_pw_form form-group">
-                    <label class="sign_re_pw_title">비밀번호 재확인</label>
-                    <input type="text" class="sign_re_pw form-control">
-                </div><br>
-                <div class="sign_lab_number_form form-group">
-                    <label class="sign_lab_number_title">연구자번호</label>
-                    <input type="text" class="sign_lab_number form-control">
-                </div><br>
-                <div class="sign_select">
-                    <label class="sign_select_title">직책</label><br>
-                    <select name="선택" class="sign_selct_box">
-                        <option value=>---학부생---</option>
-                        <option value=>---석사---</option>
-                        <option value=>---박사---</option>
-                    </select>
-                </div><br>
-
-                
-                <button type="submit" class="sign_button btn btn-default">가입</button>
+                <div class="login_pw_form form-group">
+                  <label for="exampleInputPassword1" class="login_pw_title">비밀번호</label>
+                  <input type="password" class="login_pw form-control" id="exampleInputPassword1" placeholder="암호">
+                </div>
+                <div class="login_checkbox">
+                  <label>
+                    <input class="login_remember" type="checkbox"> 입력을 기억합니다
+                  </label>
+                </div>
+                <button type="submit" class="login_button btn btn-default">로그인</button>
             </form>
         </div>
 
 
-        <div class="sign_item">
+        <div class="write_item">
             side2
         </div>
-        <div class="sign_item">
-            <div class="sign_footer panel-footer">
+        <div class="write_item">
+            <div class="write_footer panel-footer">
                 <a href="">copylight</a>
             </div>
         </div>

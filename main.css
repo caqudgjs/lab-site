@@ -596,7 +596,7 @@
             font-weight: bold;
             display: inline-block;
             text-align: left;
-            margin-left: 70px;
+            margin-left: 53px;
         }
 }
 
@@ -956,10 +956,59 @@
 
 @media (max-width: 768px) {
 
+    .sign_grid_container {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .sign_item:nth-child(1) {
+        grid-column: 1 / 4;
+
+    }
+
+    .sign_item:nth-child(2) {
+        grid-column: 1 / 4;
+    }
+
+    .sign_item:nth-child(3) {
+        grid-column: 1 / 4;
+    }
+
+    .sign_item:nth-child(4) {
+        grid-column: 1 / 4;
+    }
+
+    .sign_item:nth-child(5) {
+        grid-column: 1 / 4;
+    }
+
 
     .sign_title {
         font-weight: bold;
     }
+
+    .sign_alert {
+        margin-left: 290px;
+        color: red;
+        
+    }
+    .sign_selct_box {
+        width: 200px;
+        height: 35px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sign_button {
+        display: block;
+        margin-right: 10px;
+        float: right;
+    }
+
+    .sign_footer {
+        margin-top: 30px;
+    }
+
 
     
 }
@@ -1005,6 +1054,13 @@
         margin-left:100px;
 
     }
+
+    .sign_alert{
+        display: inline-block;
+        width: 100%;
+        margin-left: 585px;
+        color: red;
+    }
     .sign_form {
         display: block;
         text-align: center;
@@ -1021,7 +1077,7 @@
 
     .sign_selct_box {
         width: 200px;
-        height: 50px;
+        height: 35px;
         font-size: 20px;
         text-align: center;
     }

@@ -56,15 +56,24 @@
         
         <div class="write_item">
             <h2 class="write_title">글쓰기</h2><hr>
-            <form class="write_form form-inline">
+            <form class="write_form form-inline" style="display: block; text-align: center; margin-top: -20px;">
                 <div class="title_writle_form form-group">
-                    <label for="exampleInputEmail1" class="title_write_title">제목</label>
-                    <input type="text" class="write_write form-control" id="exampleInputEmail1" placeholder="제목을 입력하세요." style="marign-right:30px; width: 800px;">
-                </div><br><br><br>
-                <div class="title_writle_form form-group">
-                    <input type="textarea" class="write_write" id="exampleInputEmail1" style="width: 1000px; height: 400px;">
+                    <input type="text" class="write_write_title form-control" placeholder="제목을 입력하세요." style="width: 950px;">
+                </div>
+                <div class="title_writle_form form-group" style="display: block; margin-top: 25px;">
+                    <input type="textarea" class="write_write" style="width:950px; height: 500px;">
                 </div><br>
-                .
+                <label class="write_add_file_box" style="display: block; text-align: left; margin-left: 190px; font-size: 18px;">첨부파일 추가
+                    <br><br>
+                    <input type="file" class="write_add_item">
+                    <input type="file" class="write_add_item">
+                    <input type="file" class="write_add_item">
+                    <input type="file" class="write_add_item">
+                    <input type="file" class="write_add_item">
+                </label>
+                <div class="write_write_submit">
+                    <button type="button" class="write_write_btn btn btn-default navbar-btn btn-lg" style="margin-left: 870px;">글쓰기</button>
+                </div>
 
             </form>
         </div>

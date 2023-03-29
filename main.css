@@ -919,7 +919,7 @@
         font-weight: bold;
         font-size: 30px;
         text-align: left;
-        margin-left:100px;
+        margin-left:240px;
     }
 
     .login_form {
@@ -948,6 +948,119 @@
 
 
     
+    
+
+}
+
+/* 처음로그인 페이지 */
+@media (max-width: 768px) {
+
+    /* 그리드시작 */
+
+    .first_login_grid_container {
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+    }
+
+    .firtst_login_item:nth-child(1) {
+        grid-column: 1 / 4;
+
+    }
+
+    .first_login_item:nth-child(2) {
+        grid-column: 1 / 4;
+    }
+
+    .first_login_item:nth-child(3) {
+        grid-column: 1 / 4;
+        text-align: center;
+    }
+
+    .first_login_item:nth-child(4) {
+        grid-column: 1 / 4;
+    }
+
+    .first_login_item:nth-child(5) {
+        grid-column: 1 / 4;
+    }
+
+
+    .first_login_title {
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 767px) {
+
+    /* 그리드 시작 */
+
+    .first_login_grid_container {
+        display: grid;
+        grid-template-columns: 0% 100% 0%;
+    }
+
+    .firtst_login_item:nth-child(1) {
+        grid-column: 1 / 4;
+
+    }
+
+    .first_login_item:nth-child(2) {
+        grid-column: 1 / 2;
+    }
+
+    .first_login_item:nth-child(3) {
+        grid-column: 2 / 3;
+    }
+
+    .first_login_item:nth-child(4) {
+        grid-column: 3 / 4;
+    }
+
+    .first_login_item:nth-child(5) {
+        grid-column: 1 / 4;
+    }
+
+    .first_login_mark {
+        text-align: left;
+        margin-left: 450px;
+        padding-top: 250px;
+    }
+
+    .first_login_title {
+        display: inline-block;
+        text-align: center;
+        
+        font-size: 50px;
+    }
+
+    .first_login_form {
+        display: block;
+        text-align: center;
+    }
+
+    .first_login_id, .first_login_pw {
+        width: 520px;
+        height: 50px;
+        text-align: left;
+    }
+
+    .first_login_checkbox {
+        margin-right: 380px;
+    }
+
+    .first_login_button {
+        margin-left: 440px;
+    }
+
+    .first_login_ex {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+
     
 
 }
@@ -1107,7 +1220,7 @@
     
     .write_grid_container {
         display: grid;
-        grid-template-columns: 15% 1fr 15%;
+        grid-template-columns: 30% 1fr 30%;
     }
 
     .write_item:nth-child(1) {
@@ -1138,7 +1251,7 @@
         font-weight: bold;
         font-size: 30px;
         text-align: left;
-        margin-left:100px;
+
     }
 
     .write_form {

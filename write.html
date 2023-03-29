@@ -56,25 +56,23 @@
         
         <div class="write_item">
             <h2 class="write_title">글쓰기</h2><hr>
-            <form class="write_form form-inline" style="display: block; text-align: center; margin-top: -20px;">
-                <div class="title_writle_form form-group">
-                    <input type="text" class="write_write_title form-control" placeholder="제목을 입력하세요." style="width: 950px;">
+            <form class="write_form">
+                <div class="title_writle_form form-group" style="display: block; margin-top: 25px;">
+                    <input type="text" class="write_write_title form-control" placeholder="제목을 입력하세요.">
                 </div>
                 <div class="title_writle_form form-group" style="display: block; margin-top: 25px;">
-                    <input type="textarea" class="write_write" style="width:950px; height: 500px;">
+                    <input type="textarea" class="write_write" rows="5" resize=none; style="width: 100%; height: 3.25em; resize: none;">
                 </div><br>
-                <label class="write_add_file_box" style="display: block; text-align: left; margin-left: 190px; font-size: 18px;">첨부파일 추가
-                    <br><br>
-                    <input type="file" class="write_add_item">
-                    <input type="file" class="write_add_item">
-                    <input type="file" class="write_add_item">
-                    <input type="file" class="write_add_item">
-                    <input type="file" class="write_add_item">
+                <label class="write_add_file_box" style="display: inline-block; text-align: top; font-size: 16px;">첨부파일 추가
+                    <ul class="list-unstyled">
+                        <li><input type="file" class="write_add_item"></li>
+                        <li><input type="file" class="write_add_item"></li>
+                        <li><input type="file" class="write_add_item"></li>
+                        <li><input type="file" class="write_add_item"></li>
+                        <li><input type="file" class="write_add_item"></li>
+                    </ul>
                 </label>
-                <div class="write_write_submit">
-                    <button type="button" class="write_write_btn btn btn-default navbar-btn btn-lg" style="margin-left: 870px;">글쓰기</button>
-                </div>
-
+                <button type="button" class="write_write_btn btn btn-default navbar-btn btn-lg" style="display: block; float: right; margin-top: 200px;">글쓰기</button>
             </form>
         </div>
 
@@ -84,7 +82,7 @@
         </div>
 
         <div class="write_item">
-            <div class="write_footer panel-footer">
+            <div class="write_footer panel-footer" style="margin-top: 230px;">
                 <a href="">copylight</a>
             </div>
         </div>

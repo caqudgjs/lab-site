@@ -593,8 +593,7 @@
             font-size: 25px;
             font-weight: bold;
             display: inline-block;
-            text-align: left;
-            margin-left: 53px;
+            margin-left: 90px;
         }
 }
 
@@ -817,6 +816,10 @@
     height: 6.25em;
     resize: none;
 }
+
+.view_next, .view_back {
+    width: 20%;
+}
 }
 
 
@@ -958,6 +961,7 @@
     .first_login_grid_container {
         display: grid;
         grid-template-columns: 0% 100% 0%;
+        
     }
 
     .firtst_login_item:nth-child(1) {

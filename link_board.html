@@ -19,8 +19,8 @@
     <nav class="menu navbar navbar-default navbar-fixed-top navbar-inverse">
         <a href="">ooo님, 환영합니다.</a>
     </nav>
-    <div class="lab_grid_container">
-        <div class="lab_board_item">
+    <div class="grid_container">
+        <div class="board_item">
             <nav class="nav_header navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -50,147 +50,112 @@
 
             </nav>
         </div>
-        <div class="lab_board_item">
-            <div class="lab_people">
-                <summary class="people_title"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span>&nbsp;프로젝트</summary>
-                <ul class="lab_people_stack nav nav-pills nav-stacked">
-                    <li role="presentation"><a href="#" class="lab_people_user">프로젝트</a></li>
-                    <li role="presentation"><a href="#" class="lab_people_user">프로젝트</a></li>
-                    <li role="presentation"><a href="#" class="lab_people_user">프로젝트</a></li>
-                    <li role="presentation"><a href="#" class="lab_people_user">프로젝트</a></li>
-                    <li role="presentation"><a href="#" class="lab_people_user">프로젝트</a></li>
-                    <li role="presentation"><a href="#" class="lab_people_user">프로젝트</a></li>
-                    <li role="presentation"><a href="#" class="lab_people_user">프로젝트</a></li>
-                </ul>
-                
-                
-            </div>
+        <div class="board_item">
+            side1
         </div>
-        <div class="lab_board_item">
-            <h2 class="board_name">랩노트</h2>
+        <div class="board_item">
+            <h2 class="board_name">링크</h2>
             <div class="table-responsive">
-                <table class="lab_board_table table table-hover" id="board_table">
+                <table class="free_board table table-hover" id="board_table">
                     <tr>
                         <th class="number">번호</th>
                         <th class="title">제목</th>
                         <th class="user">작성자</th>
-                        <th class="date">작성일</th>
-                        <th class="click">조회</th>
                     </tr>
                     <tr class="active">
                         <td>1</td>
                         <td></td>
                         <td>작성자</td>
-                        <td class="A">작성일</td>
-                        <td class="A">조회</td>
                     </tr>
                     <tr class="active">
                         <td>2</td>
                         <td></td>
                         <td></td>
-                        <td class="A"></td>
-                        <td class="A"></td>
                     </tr>
                     <tr class="active">
                         <td>3</td>
                         <td></td>
                         <td></td>
-                        <td class="A"></td>
-                        <td class="A"></td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td></td>
                         <td></td>
-                        <td class="A"></td>
-                        <td class="A"></td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td></td>
                         <td></td>
-                        <td class="A"></td>
-                        <td class="A">1</td>
                     </tr>
                     <tr>
                         <td>6</td>
                         <td></td>
                         <td></td>
-                        <td class="A"></td>
-                        <td class="A"></td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td></td>
                         <td></td>
-                        <td class="A"></td>
-                        <td class="A"></td>
                     </tr>
                     <tr>
                         <td>8</td>
                         <td></td>
                         <td></td>
-                        <td class="A"></td>
-                        <td class="A"></td>
                     </tr>
                     <tr>
                         <td>9</td>
                         <td></td>
                         <td></td>
-                        <td class="A"></td>
-                        <td class="A"></td>
                     </tr>
                     <tr>
                         <td>10</td>
                         <td></td>
                         <td></td>
-                        <td class="A"></td>
-                        <td class="A"></td>
                     </tr>
                 </table>
             
                 <div class="board_bottom">
                     <nav>
-                        <ul class="pagination">
-                            <li>
-                            <a href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            </a>
-                            </li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li>
+                        <div class="board_pagination">
+                            <ul class="pagination">
+                              <li>
+                                <a href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li>
                                 <a href="#" aria-label="Next">
                                   <span aria-hidden="true">&raquo;</span>
                                 </a>
-                            </li>
-                        </ul>
+                              </li>
+                            </ul>
+                        </div>
                     </nav>
                     
                     <form>
-                        <div class="select_button"><button type="submit" class="lab_board_select_btn btn btn-default">전체</button></div>
+                        <div class="select_button"><button type="submit" class="free_board_select_btn btn btn-default">전체</button></div>
                         <div class="form-group">
-                          <input type="input" class="lab_board form-control">
+                          <input type="input" class="free_board_search form-control">
                         </div>
-                        <div class="board_submit_button"><button type="submit" class="lab_board_search_btn btn btn-default">검색</button></div>
+                        <div class="board_submit_button"><button type="submit" class="free_board_search_btn btn btn-default">검색</button></div>
                     </form>
                     <div class="board_submit">
-                        <button type="button" class="lab_board_write_btn btn btn-default navbar-btn btn-lg">글쓰기</button>
+                        <button type="button" class="free_board_write_btn btn btn-default navbar-btn btn-lg">글쓰기</button>
                     </div>
-
-                </div>
                 </div>
             
             </div>
         </div>
-        <div class="lab_board_item">
+        <div class="board_item">
             side2
         </div>
-        <div class="lab_board_item">
-            <div class="lab_board panel-footer" style="margin-top: 85px;">
+        <div class="board_item">
+            <div class="free_board_footer panel-footer">
                 <a href="">copylight</a>
             </div>
         </div>

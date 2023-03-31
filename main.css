@@ -88,13 +88,17 @@
 
 
     .list {
-
         display: inline-block;
         float: right;
         text-align: center;
         margin-top: 20px;
         padding-top: 0px;
 
+    }
+
+    .list_nav {
+        font-size: 10px;
+        text-align: middle;
     }
 
     /* 네비게이션바 리스트 */
@@ -694,6 +698,8 @@
     .viewer_item:nth-child(7) {
         grid-column: 1 / 5;
     }
+
+    
     
     /* 그리드 끝 */
     
@@ -737,19 +743,23 @@
 }
 
 .view:nth-child(4) {
+    grid-column: 2 / 3;
+    
+}
+
+.view:nth-child(5) {
     grid-column: 3 / 4;
     grid-row: 2 / 4;
     
 }
 
-.view:nth-child(5) {
-    grid-column: 2 / 3;
-}
-
 .view:nth-child(6) {
     grid-column: 1 / 4;
     
+    
 }
+
+
 
 .viewer_grid_container {
     padding-top: 50px;
@@ -1293,7 +1303,7 @@
 
 
 /* 검색결과 */
-
+@media (min-width: 767px) {
 .search_grid_container {
     display: grid;
     grid-template-columns: 20% 60% 20%
@@ -1351,14 +1361,21 @@
 }
 
 .search_item:nth-child(10) {
+    grid-column: 2 / 3;
+    
+
+}
+
+.search_item:nth-child(11) {
     grid-column: 3 / 4;
     grid-row: 2 / 9;
     
 
 }
 
-.search_item:nth-child(11) {
+.search_item:nth-child(12) {
     grid-column: 1 / 4;
     
 
+}
 }

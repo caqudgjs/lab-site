@@ -1182,15 +1182,15 @@
     .sign_email_form,
     .sign_pw_form,
     .sign_re_pw_form,
-    .sign_lab_number_form,
-    .sign_select {
+    .sign_lab_number_form{
         width: 500px;
         text-align: left;
     }
 
     /* 선택 상자 묶은 박스 */
     .sign_select {
-        margin-left: 130px;
+        text-align: left;
+        margin-left: 230px;
     }
 
     /* 선택상자 */

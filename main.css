@@ -1,5 +1,5 @@
 /* 768픽셀보다 작을때 미디어쿼리 반응형디자인 */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
     /* 그리드 */
     .grid_container {
@@ -84,11 +84,12 @@
     }
 
     /* 로고 */
-
+    
 
 
     .list {
         display: inline-block;
+        position: absolute;
         float: right;
         text-align: center;
         margin-top: 20px;
@@ -197,7 +198,7 @@
 
 
 /*767px보다 클때 미디어 쿼리 반응형 디자인 */
-@media (min-width: 767px) {
+@media (min-width: 1200px) {
 
     /* 메인 그리드 */
 
@@ -269,20 +270,23 @@
     }
 
     /* 검정색바 */
-
-    .container-fluid {
-        display: inline-block;
-    }
-
+    
     .nav_header {
         height: 70px;
         margin-top: 30px;
+        
+    }
+    .container-fluid {
+        padding-top: 17px;
+        display: inline-block;
+        position: relative;
+        left: 220px;
     }
 
 
+
     .logo {
-        position: relative;
-        left: 220px;
+        padding-top: 2px;
     }
 
     .logo img {
@@ -294,13 +298,12 @@
 
 
     .list {
-
         display: inline-block;
-        float: right;
-        text-align: center;
-        margin-top: 20px;
-        padding-top: 0px;
-        padding-right: 250px;
+        text-align: right;
+        margin-left: 53em;
+        font-size: 1.2rem;
+
+        
     }
 
     .search {
@@ -377,7 +380,7 @@
 /* 768px이하적용 */
 
 /* 그리드 */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .grid_container {
         display: grid;
         grid-template-columns: 25% 50% 25%;
@@ -439,7 +442,7 @@
 
 /* 그리드 끝 */
 /* 768px이상 */
-@media (min-width: 767px) {
+@media (min-width: 1200px) {
 
     /* 그리드 */
 

@@ -1,5 +1,5 @@
 /* 768픽셀보다 작을때 미디어쿼리 반응형디자인 */
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
 
     /* 그리드 */
     .grid_container {
@@ -89,11 +89,11 @@
 
     .list {
         display: inline-block;
-        position: absolute;
-        float: right;
-        text-align: center;
+        position: relative;
+        left: 0px;
         margin-top: 20px;
-        padding-top: 0px;
+        text-align: center;
+        
 
     }
 
@@ -198,7 +198,7 @@
 
 
 /*767px보다 클때 미디어 쿼리 반응형 디자인 */
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
 
     /* 메인 그리드 */
 
@@ -300,8 +300,9 @@
     .list {
         display: inline-block;
         text-align: right;
-        margin-left: 53em;
         font-size: 1.2rem;
+        position: relative;
+        left: 700px;
 
         
     }
@@ -319,6 +320,7 @@
         text-align: center;
         padding-bottom: 50px;
         padding-top: 30px;
+
     }
 
     /* 게시판 제목 */
@@ -329,17 +331,17 @@
     }
 
     .number {
-        width: 10%;
+        width: 15%;
         text-align: center;
     }
 
     .title {
-        width: 60%;
+        width: 50%;
         text-align: center;
     }
 
     .user {
-        width: 10%;
+        width: 15%;
         text-align: center;
     }
 
@@ -1223,6 +1225,34 @@
 
 @media (max-width: 768px) {
 
+    /* 그리드 */
+    .write_grid_container {
+        display: grid;
+        grid-template-columns: 30% 1fr 30%;
+    }
+
+    .write_item:nth-child(1) {
+        grid-column: 1 / 4;
+
+    }
+
+    .write_item:nth-child(2) {
+        grid-column: 1 / 4;
+    }
+
+    .write_item:nth-child(3) {
+        grid-column: 1 / 4;
+    }
+
+    .write_item:nth-child(4) {
+        grid-column: 1 / 4;
+    
+    }
+
+    .write_item:nth-child(5) {
+        grid-column: 1 / 4;
+    }
+
     /* 텍스트 입력 박스 */
     .title_writle_form {
         display: block;
@@ -1367,6 +1397,83 @@
 
 
 /* 검색결과 */
+
+@media (max-width: 768px) {
+    .search_grid_container {
+        display: grid;
+        grid-template-columns: 20% 60% 20%
+    }
+
+    .search_item:nth-child(1) {
+        grid-column: 1 / 4;
+
+    }
+
+    .search_item:nth-child(2) {
+        grid-column: 1 / 4;
+
+    }
+
+    .search_item:nth-child(3) {
+        grid-column: 1 / 4;
+
+    }
+
+    .search_item:nth-child(4) {
+        grid-column: 1 / 4;
+
+
+    }
+
+    .search_item:nth-child(5) {
+        grid-column: 1 / 4;
+
+
+    }
+
+    .search_item:nth-child(6) {
+        grid-column: 1 / 4;
+
+
+    }
+
+    .search_item:nth-child(7) {
+        grid-column: 1 / 4;
+
+
+    }
+
+    .search_item:nth-child(8) {
+        grid-column: 1 / 4;
+
+
+    }
+
+    .search_item:nth-child(9) {
+        grid-column: 1 / 4;
+
+
+    }
+
+    .search_item:nth-child(10) {
+        grid-column: 1 / 4;
+
+
+    }
+
+    .search_item:nth-child(11) {
+        grid-column: 1 / 4;
+    
+
+
+    }
+
+    .search_item:nth-child(12) {
+        grid-column: 1 / 4;
+
+
+    }
+}
 @media (min-width: 767px) {
     .search_grid_container {
         display: grid;

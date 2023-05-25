@@ -1,5 +1,5 @@
 /* 768픽셀보다 작을때 미디어쿼리 반응형디자인 */
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
 
     /* 그리드 */
     .grid_container {
@@ -77,10 +77,11 @@
     /* 네비게이션 바 */
 
     .logo img {
-
+        
         max-width: 175px;
         width: 0 auto;
         height: 40px;
+        margin-right: 100px;
     }
 
     /* 로고 */
@@ -89,17 +90,16 @@
 
     .list {
         display: inline-block;
-        position: relative;
-        left: 0px;
-        margin-top: 20px;
+        float: right;
         text-align: center;
+        margin-top: 20px;
+        padding-top: 0px;
         
 
     }
 
     .list_nav {
         font-size: 10px;
-        text-align: middle;
     }
 
     /* 네비게이션바 리스트 */
@@ -198,7 +198,7 @@
 
 
 /*767px보다 클때 미디어 쿼리 반응형 디자인 */
-@media (min-width: 1100px) {
+@media (min-width: 1300px) {
 
     /* 메인 그리드 */
 
@@ -297,14 +297,15 @@
 
 
 
-    .list {
+     .list {
         display: inline-block;
-        text-align: right;
-        font-size: 1.2rem;
-        position: relative;
-        left: 700px;
-
+        float: right;
+        text-align: center;
+        margin-right: 450px;
+        margin-top: 20px;
+        padding-top: 0px;
         
+
     }
 
     .search {
@@ -382,7 +383,7 @@
 /* 768px이하적용 */
 
 /* 그리드 */
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .grid_container {
         display: grid;
         grid-template-columns: 25% 50% 25%;
@@ -444,7 +445,7 @@
 
 /* 그리드 끝 */
 /* 768px이상 */
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
 
     /* 그리드 */
 
@@ -527,7 +528,7 @@
 
 
 /* 768px 이하 */
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .grid_container {
         display: grid;
         grid-template-columns: 20% 80% 0%;
@@ -561,7 +562,7 @@
 }
 
 /* 768이상 */
-@media (min-width: 767px) {
+@media (min-width: 1300px) {
     .lab_grid_container {
         display: grid;
         grid-template-columns: 25% 50% 25%;
@@ -633,7 +634,7 @@
 /* 상세보기 */
 /* 768px 이하 */
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .view_grid_container {
         display: grid;
         grid-template-columns: 25% 50% 25%;
@@ -674,7 +675,7 @@
     .viewer_grid_container {
         padding-top: 50px;
         display: grid;
-        grid-template-columns: 20% 20% 20% 1fr;
+        grid-template-columns: 80px 100px 100px 1fr;
     }
 
     /* 제목 */
@@ -703,6 +704,8 @@
         height: 50px;
         font-size: 10px;
         padding-top: 15px;
+        
+
 
     }
 
@@ -763,7 +766,7 @@
 }
 
 /* 768이상 */
-@media (min-width: 767px) {
+@media (min-width: 1300px) {
 
 
     /* 그리드 */
@@ -809,7 +812,7 @@
     .viewer_grid_container {
         padding-top: 50px;
         display: grid;
-        grid-template-columns: 10% 10% 10% 1fr;
+        grid-template-columns: 120px 150px 150px 1fr;
     }
 
     /* 제목 */
@@ -902,7 +905,7 @@
 
 
 /* 처음로그인 페이지 */
-@media (max-width: 1110px) {
+@media (max-width: 1300px) {
 
     /* 그리드시작 */
 
@@ -987,7 +990,7 @@
 }
 
 
-@media (min-width: 1110px) {
+@media (min-width: 1300px) {
 
     /* 그리드 시작 */
 
@@ -1057,7 +1060,7 @@
 
 /* 회원가입 */
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
 
     .sign_grid_container {
         display: grid;
@@ -1123,7 +1126,7 @@
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
 
     /* 그리드 시작 */
     .sign_grid_container {
@@ -1223,7 +1226,7 @@
 /* 글쓰기 */
 
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
 
     /* 그리드 */
     .write_grid_container {
@@ -1288,7 +1291,7 @@
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1300px) {
 
     .write_grid_container {
         display: grid;
@@ -1367,9 +1370,9 @@
 
 /* 사진게시판 */
 
-@media (max-width: 768px) {}
+@media (max-width: 1300px) {}
 
-@media (min-width: 767px) {
+@media (min-width: 1300px) {
     .picture_conatainer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -1398,7 +1401,7 @@
 
 /* 검색결과 */
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .search_grid_container {
         display: grid;
         grid-template-columns: 20% 60% 20%
@@ -1474,7 +1477,7 @@
 
     }
 }
-@media (min-width: 767px) {
+@media (min-width: 1300px) {
     .search_grid_container {
         display: grid;
         grid-template-columns: 20% 60% 20%

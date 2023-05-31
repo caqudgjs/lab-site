@@ -125,12 +125,17 @@
 
     /* 제목 *공지사항 *랩노트 *사진게시판 */
 
+    .table-responsive {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
 
     table {
         border-collapse: collapse;
         text-align: center;
-
     }
+     
 
     /* 게시판 */
 
@@ -1093,6 +1098,17 @@
         font-weight: bold;
     }
 
+    /* signform의 몸통 */
+
+    .sign_form {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    /* 필수입력란 */
+    .sign_alert {
+        padding-right: 50px;
+    }
+
     /* 필수입력란 옆 이모티콘  */
     .sign_alert {
         display: block;
@@ -1241,10 +1257,13 @@
 
     .write_item:nth-child(2) {
         grid-column: 1 / 4;
+
     }
 
     .write_item:nth-child(3) {
         grid-column: 1 / 4;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .write_item:nth-child(4) {
@@ -1370,7 +1389,13 @@
 
 /* 사진게시판 */
 
-@media (max-width: 1300px) {}
+@media (max-width: 1300px) {
+    .picture_item {
+        display: block;
+        text-align: center;
+    }
+
+}
 
 @media (min-width: 1300px) {
     .picture_conatainer {

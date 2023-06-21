@@ -135,10 +135,17 @@
     table {
         border-collapse: collapse;
         text-align: center;
+        white-space: nowrap;
     }
      
 
     /* 게시판 */
+    .title_length{
+        max-width: 50px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 
     .number {
         width: 10%;
@@ -337,6 +344,13 @@
         text-align: center;
     }
 
+    .title_length{
+        max-width: 50px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .number {
         width: 15%;
         text-align: center;
@@ -363,6 +377,7 @@
     }
 
     /* 게시판 */
+
     .photo_container {
         margin-bottom: 100px;
     }
@@ -1143,11 +1158,21 @@
     }
 
     /* 선택상자 */
-    .sign_selct_box {
-        height: 35px;
-        font-size: 14px;
-        text-align: right;
-    }
+    .sign_select {
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+      
+      .sign_select_title {
+        font-weight: bold;
+      }
+      
+      .sign_selct_box {
+        padding: 8px;
+        border: 1px solid #ccc;
+        width: 200px;
+        text-align: center;
+      }
 
     /* 가입버튼 */
     .sign_button {
@@ -1200,6 +1225,7 @@
     /* 그리드 끝 */
 
     /* 회원가입 글자 */
+    
     .sign_title {
         display: block;
         font-weight: bold;
@@ -1241,11 +1267,23 @@
     }
 
     /* 선택상자 */
-    .sign_selct_box {
-        height: 35px;
-        font-size: 14px;
-        text-align: right;
+    .sign_select {
+      display: inline-block;
+      margin-bottom: 10px;
     }
+    
+    .sign_select_title {
+      font-weight: bold;
+    }
+    
+    .sign_selct_box {
+      padding: 8px;
+      border: 1px solid #ccc;
+      width: 200px;
+      text-align: center;
+    }
+    
+    
 
     /* 가입버튼 */
     .sign_button {
